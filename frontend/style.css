@@ -70,3 +70,43 @@ body {
 .student-list {
   display: block;
 }
+
+.student-form {
+  max-width: 400px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.input-group {
+  margin-bottom: 12px;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 4px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  color: #ffffff;
+  box-sizing: border-box;
+  background-color: #424242;
+  transition: background-color 0.35s ease;
+}
+
+.input-group input:hover {
+  background-color: #333333;
+}
+
+.input-group input::placeholder {
+  color: rgba(197, 197, 197, 0.87);
+  opacity: 1;
+}
+
+.student-form button {
+  width: 100%;
+}
